@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal; }
+
+* {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal; }
+
+header {
+  border: 1px solid red; }
+
+.header__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
+  .header__top__left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px; }
+    .header__top__left__mail {
+      display: flex;
+      align-items: center;
+      gap: 10px; }
+  .header__top__right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; }
+    .header__top__right__list ul {
+      display: flex;
+      list-style-type: none;
+      gap: 20px; }
+    .header__top__right__login {
+      display: flex;
+      gap: 10px; }
+
+.header__main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  .header__main__search button {
+    font-size: 16px;
+    max-width: 36%;
+    background: none;
+    border: none; }
